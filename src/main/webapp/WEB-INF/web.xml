@@ -8,13 +8,13 @@
   	<servlet-name>LoginServlet</servlet-name>
   	<display-name>LoginServlet</display-name>
   	<description></description>
-  	<servlet-class>LoginServlet</servlet-class>
+  	<servlet-class>com.example.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>RegisterServlet</servlet-name>
   	<display-name>RegisterServlet</display-name>
   	<description></description>
-  	<servlet-class>RegisterServlet</servlet-class>
+  	<servlet-class>com.example.servlet.RegisterServlet</servlet-class>
   </servlet>
   
   
@@ -22,80 +22,87 @@
   	<servlet-name>Logout</servlet-name>
   	<display-name>Logout</display-name>
   	<description></description>
-  	<servlet-class>Logout</servlet-class>
+  	<servlet-class>com.example.servlet.Logout</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>NoteBookOperation</servlet-name>
   	<display-name>NoteBookOperation</display-name>
   	<description></description>
-  	<servlet-class>business.NoteBookOperation</servlet-class>
+  	<servlet-class>com.example.business.NoteBookOperation</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>NoteBookServlet</servlet-name>
   	<display-name>NoteBookServlet</display-name>
   	<description></description>
-  	<servlet-class>NoteBookServlet</servlet-class>
+  	<servlet-class>com.example.servlet.NoteBookServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>AddNoteBookServlet</servlet-name>
   	<display-name>AddNoteBookServlet</display-name>
   	<description></description>
-  	<servlet-class>AddNoteBookServlet</servlet-class>
+  	<servlet-class>com.example.servlet.AddNoteBookServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>DeleteNoteBook</servlet-name>
   	<display-name>DeleteNoteBook</display-name>
   	<description></description>
-  	<servlet-class>DeleteNoteBook</servlet-class>
+  	<servlet-class>com.example.servlet.DeleteNoteBook</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>GetNotesServlet</servlet-name>
   	<display-name>GetNotesServlet</display-name>
   	<description></description>
-  	<servlet-class>GetNotesServlet</servlet-class>
+  	<servlet-class>com.example.servlet.GetNotesServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>AddNotesServlet</servlet-name>
   	<display-name>AddNotesServlet</display-name>
   	<description></description>
-  	<servlet-class>AddNotesServlet</servlet-class>
+  	<servlet-class>com.example.servlet.AddNotesServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>DeleteNotes</servlet-name>
   	<display-name>DeleteNotes</display-name>
   	<description></description>
-  	<servlet-class>DeleteNotes</servlet-class>
+  	<servlet-class>com.example.servlet.DeleteNotes</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>GetSingleNotesServlet</servlet-name>
   	<display-name>GetSingleNotesServlet</display-name>
   	<description></description>
-  	<servlet-class>GetSingleNotesServlet</servlet-class>
+  	<servlet-class>com.example.servlet.GetSingleNotesServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>EditNotesServlet</servlet-name>
   	<display-name>EditNotesServlet</display-name>
   	<description></description>
-  	<servlet-class>EditNotesServlet</servlet-class>
+  	<servlet-class>com.example.servlet.EditNotesServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>EditNoteBookServlet</servlet-name>
   	<display-name>EditNoteBookServlet</display-name>
   	<description></description>
-  	<servlet-class>EditNoteBookServlet</servlet-class>
+  	<servlet-class>com.example.servlet.EditNoteBookServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>EditUserServlet</servlet-name>
   	<display-name>EditUserServlet</display-name>
   	<description></description>
-  	<servlet-class>EditUserServlet</servlet-class>
+  	<servlet-class>com.example.servlet.EditUserServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>GetNotificationsServlet</servlet-name>
   	<display-name>GetNotificationsServlet</display-name>
   	<description></description>
-  	<servlet-class>GetNotificationsServlet</servlet-class>
+  	<servlet-class>com.example.servlet.GetNotificationsServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>demo</servlet-name>
+  	<display-name>demo</display-name>
+  	<description></description>
+  	<servlet-class>com.example.business.demo</servlet-class>
+  </servlet>
+  
   
  
   
@@ -160,5 +167,11 @@
   	<servlet-name>GetNotificationsServlet</servlet-name>
   	<url-pattern>/GetNotificationsServlet</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>demo</servlet-name>
+  	<url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  
+  
   
 </web-app>

@@ -1,4 +1,4 @@
-<%@ page import="bean.User" %>
+<%@ page import="com.example.bean.User" %>
 	
 	<%
 		User u=(User)request.getSession().getAttribute("user");

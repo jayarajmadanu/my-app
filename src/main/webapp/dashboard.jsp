@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="bean.User"
-		 import="bean.NoteBook"
+<%@ page import="com.example.bean.*"
 		 import="java.util.*" 
 		 import="java.io.*"%>
 		 
